@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anton",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LadinAnton/project1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LadinAnton/project1/issues"
+  },
+  "homepage": "https://github.com/LadinAnton/project1#readme"
 }
