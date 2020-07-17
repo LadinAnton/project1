@@ -50,36 +50,41 @@ height: 40px;
 background: #C4C4C4;
 margin-left: 16.5px;
 border-radius: 20px;
+outline:none;
 
 }
 #button2{
 position: absolute;
 margin-top: 20px;
-width: 90px;
+width: 150px;
 height: 40px;
 background: #C4C4C4;
-margin-left: 132px ;
+margin-left: 20px ;
 border-radius: 20px;
+outline:none;
 }
 
 #button3{
 position: absolute;
 margin-top: 20px;
-width: 90px;
+width: 150px;
 height: 40px;
 background: #C4C4C4;
-margin-left: 250px;
+margin-left: 190px;
 border-radius: 20px;
+outline:none;
 }
 
 #button4{
     position: absolute;
-    margin-top: -518px;
+    margin-top: -519px;
     width: 50px;
     height: 40px;
     background: #93DBEB;;
     margin-left: 290px;
     border-radius: 20px;
+    outline:none;
+    font-size: 15px;
     }
 
     #button5{
@@ -99,6 +104,9 @@ border-radius: 20px;
         background: #FFFFFF;
         margin-left: 5px ;
         border-radius: 20px;
+        outline:none;
+        text-align: center
+        
     }
     #button7{
         position: absolute;
@@ -145,7 +153,24 @@ border-radius: 20px;
         margin-left: 5px ;
         border-radius: 20px;
     }
-
+    #button12{
+        position: absolute;
+        margin-top: -100px;
+        width: 350px;
+        height: 40px;
+        background: #C4C4C4;
+        margin-left: 5px ;
+        border-radius: 20px;
+    }
+    #button13{
+        position: absolute;
+        margin-top: -50px;
+        width: 350px;
+        height: 40px;
+        background: #C9F3FC;
+        margin-left: 5px ;
+        border-radius: 20px;
+    }
 
 h1{
 font-family: "Righteous-Regular" , Arial;
@@ -159,19 +184,28 @@ color: #000000;
 p{
     font-family:"Righteous-Regular";
     text-align: center;
-    font-weight: bold;
-    margin-top: 8px;
+    font-weight: normal;
+    margin-top: 6px;
     }
 
     p#1{
         position: absolute;
-        margin-top: 20px;
+        margin-top: 15px;
         width: 70px;
         height: 40px;
         background: #C4C4C4;
         margin-left: 144.5px ;
         border-radius: 20px;
     }
+    p#3{
+        font-family:"Righteous-Regular";
+        text-align: center;
+        font-weight: normal;
+        margin-top: 6px;
+        font-size: 5px;
+    }
+
+
 
 @font-face{
 
