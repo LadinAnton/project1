@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>food calculator</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <script src="app.js"></script>
+        <div id="container">
+            <!--Calc start-->
+            <h1>food calculator</h1>
+
+
+
+            <div id="calculator">
+                <form>
+
+                    <p>Сет</p>
+                    <div class="input-group mb-3">
+                        <select class = "custom-select" id="setOfEat">
+                        </select>
+                    </div>
+                    <p>Гарнир+соус</p>
+                    <div class="input-group mb-3">
+                        <select class = "custom-select" id="garnish">
+                        </select>
+                    </div>
+                    <p>
+                        <input type="checkbox" id="option1" value="[10,15]"> Посыпать сухарями - 10 кл. 15 р.<br>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="option2" value="[5,20]"> Дополнительный соус - 5 кл. 20 р.<Br>
+                    </p>
+
+
+                    <button type="button" onclick="calc()">Count!</button>
+                </form>
+            </div>
+            <!--Calc end-->
+            <!--Calc out-->
+            <div id="total" style="display: none;">
+                <span id="pay1">0</span>
+                <small>р.</small><br>
+                <span id="pay2">0</span>
+                <small >калорий</small>
+            </div>
+        </div>
+        <script>optionBox("setOfEat",['ничего','маленький','нормальный','большой','огромный','крыса!!!'], [0,100,150,250,400,10],[0,60,80,120,200,1000])</script>
+        <script>optionBox("garnish",['ничего','Терияки + свинина','унаги + говядина','устричный и курица'], [0,100,150,125],[0,70,80,50])</script>
+    </body>
+</html>

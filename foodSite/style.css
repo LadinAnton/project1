@@ -1,0 +1,84 @@
+html {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    font-family: "Righteous-Regular";
+    background: linear-gradient(to left, #DAEFF9, #45D08E);
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    height: 600px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    background: #C9F3FC;
+    margin: 0;
+    padding:10px 28px;
+    font-weight: normal;
+    font-size: 38px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #81fac2;
+    border-radius: 30px;
+    width: 360px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    a
+}
+
+button:hover {
+    background: #DAEFF9;
+    border-bottom-color: black;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#total {
+    font-size: 30px;
+    margin-top: 21px;
+    text-align: center;
+}
+
+#total:before {
+    content: "Итого";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#total small {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: 'Righteous-Regular';
+    src: url(fonts/Righteous-Regular.ttf);
+    }
